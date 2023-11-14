@@ -1,0 +1,30 @@
+
+body {
+    padding: 10px;
+    text-align: left;
+    
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image {
+    width: 200px; /* Ajustez la largeur de l'image selon vos besoins */
+    margin-right: 16px; /* Ajustez la marge entre l'image et le texte selon vos besoins */
+  }
+  
+  .text {
+    margin-left: 50px ;
+    text-align : left;
+    flex: 1; /* Pour que le texte occupe l'espace restant */
+  }
+  
