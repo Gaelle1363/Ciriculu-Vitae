@@ -115,22 +115,22 @@ export default function Home() {
          <Image
          objectFit='cover'
           boxSize='100px'
-          src={'/dance.png'} 
+          src={'./dance.png'} 
         />&emsp;&emsp;&emsp;&emsp;
         <Image
          objectFit='cover'
           boxSize='100px'
-          src={'/video.png'} 
+          src={'./video.png'} 
         />&emsp;&emsp;&emsp;&emsp;
         <Image
          objectFit='cover'
          boxSize='100px'
-          src={'/photo.png'} 
+          src={'./photo.png'} 
         /> &emsp;&emsp;&emsp;&emsp;
           <Image
          objectFit='cover'
          boxSize='100px'
-          src={'/listen.png'} 
+          src={'./listen.png'} 
         />
       
         </div>
@@ -142,22 +142,22 @@ export default function Home() {
           <Image
          objectFit='cover'
           boxSize='100px'
-          src={'/calendrier.png'} 
+          src={'./calendrier.png'} 
         />&emsp;&emsp;&emsp;&emsp;
         <Image
          objectFit='cover'
          boxSize='100px'
-          src={'/programmation.png'} 
+          src={'./programmation.png'} 
         />&emsp;&emsp;&emsp;&emsp;
         <Image
          objectFit='cover'
           boxSize='100px'
-          src={'/pc_video.png'} 
+          src={'./pc_video.png'} 
         />&emsp;&emsp;&emsp;&emsp;
           <Image
          objectFit='cover'
          boxSize='100px'
-          src={'/organiser.png'} 
+          src={'./organiser.png'} 
         />
         </div>
         </div>
