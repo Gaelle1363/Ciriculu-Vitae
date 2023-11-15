@@ -17,7 +17,7 @@ export default function Home() {
            objectFit='cover'
           borderRadius='full'
            boxSize='200px'
-           src={'/photo.jpg'}
+           src={'./photo.jpg'}
           />
          <div className="text">
             Gaëlle Grassart
