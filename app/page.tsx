@@ -20,10 +20,10 @@ export default function Home() {
            src={'/photo.jpg'}
           />
          <div className="text">
-           <p> Gaëlle Grassart
+            Gaëlle Grassart
             <br/> Je suis étudiante en deuxième année de Master MIASHS parcours Web Analyste, 
-            <br/>je suis à la recherche d’un stage de fin d’étude commençant début février 2024 pour une durée de 6 mois dans les domaines du web et de la data.
-            </p>
+            <br/>Je suis à la recherche d’un stage de fin d’étude commençant début février 2024 pour une durée de 6 mois dans les domaines du web et de la data.
+            
          </div>
         </div>    
         </Center>
@@ -43,7 +43,7 @@ export default function Home() {
   <TabPanels>
     
     <TabPanel>
-      <p>
+      
         <br/>
         <strong>Master MIASHS</strong> (Mathématiques et Informatique Appliquées aux Sciences Humaines et Sociales)  2024<br/>
         Parcours Web Analyste : Bases de données, SEO, Programmation Web, E-marketing…<br/><br/>
@@ -54,11 +54,11 @@ export default function Home() {
         Maîtrise Excel, Informations et données, Protection et sécurité<br/><br/>
         <strong>Diplôme du Baccalauréat</strong> Scientifique - mention assez bien 2018<br/><br/>
         <strong>Diplôme du BAFA</strong> <br/>
-        Perfectionnement : Art du spectacle </p>
+        Perfectionnement : Art du spectacle 
     </TabPanel>
      
       <TabPanel>
-      <p><br/>
+      <br/>
       <strong>Stagiaire Digital</strong>    People Conventions : Entreprise spécialisée dans l’événementiel<br/>
       Utilisation de Google Analytics : Analyse de visibilité<br/>Avril 2023 – Juin 2023<br/>
       <br/>
@@ -69,12 +69,17 @@ export default function Home() {
       Utilisation de Google Tag Manager & Google Analytics<br/>Novembre 2022 – Février 2023<br/><br/>
 
       <strong>AED en préprofessionnalisation</strong>   Rectorat de Poitiers<br/>
-      Observation, intervention ponctuelle & réalisation d’un rallye des maths<br/>2020-2022<br/></p>
+      Observation, intervention ponctuelle & réalisation d’un rallye des maths<br/>2020-2022<br/>
     </TabPanel>
   
 
     <TabPanel>
-      <p><br/>
+      <br/>
+  
+
+
+
+
      SQL<br/>
       React Native<br/>
       Python<br/>
@@ -89,23 +94,23 @@ export default function Home() {
       Pack Office<br/>
       Première Pro <br/>
       Audacity<br/>
-      React</p>
+      React
     </TabPanel>
     
     <TabPanel>
-      <p> <br/> 
+       <br/> 
         <strong>Job étudiant</strong> : travail dans une épicerie solidaire<br/><br/>
         <strong>Régisseuse son et lumière</strong> : People Convention<br/><br/>
         <strong>Animatrice BAFA</strong> : Colonie, scout, centre<br/><br/>
        <strong>Professeur de mathématique</strong> : Cours particuliers<br/><br/>
        <strong>Danse</strong> : Elève (10 ans) puis professeur (2 ans)<br/><br/>
-      </p>
+      
     </TabPanel>
     
     <TabPanel>
       <Center>
-      <p>
-       
+      
+       <div>
         <div className="container"> 
          <Image
          objectFit='cover'
@@ -155,22 +160,22 @@ export default function Home() {
           src={'/organiser.png'} 
         />
         </div>
-
+        </div>
         
 
-      </p>
+      
       </Center>
     </TabPanel>
     
     <TabPanel>
-      <p>
+      
        <br /> 
-        <InfoIcon/> &emsp; Gaelle Grassart <br />
-        <PhoneIcon /> &emsp;  + 33.7.66.47.15.64 <br />
-        <EmailIcon/> &emsp;   gaelle1363@gmail.com <br />
-        <MoonIcon/>  &emsp; 27 rue Charles Devendeville 59810 Lesquin <br />
+        <InfoIcon/> &emsp; Gaelle Grassart <br /><br />
+        <PhoneIcon /> &emsp;  + 33.7.66.47.15.64 <br /><br />
+        <EmailIcon/> &emsp;   gaelle1363@gmail.com <br /><br />
+        <MoonIcon/>  &emsp; 27 rue Charles Devendeville 59810 Lesquin <br /><br />
         <CheckCircleIcon/> &emsp; Permis B
-      </p>
+     
 
     </TabPanel>
     
